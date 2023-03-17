@@ -3,13 +3,13 @@ body{
 }
 
 #container{
-    margin: 50px, 100px, 0, 100px;
+    margin: 50px 100px 0 100px;
 }
 
 h1, h2, h3, h4{
     background-color: #3C275A;
     color: white;
-    border: #D6A800, solid, 1px;
+    border: #D6A800 solid 1px;
     padding: 10px;
 }
 
