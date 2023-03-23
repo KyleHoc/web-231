@@ -1,0 +1,31 @@
+body{
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
+.return-home{
+    color: #4F3674;
+}
+
+.return-home:hover{
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+.return-home:visited{
+    color: #3C275A
+}
+
+h1, h3{
+    background-color: #3C275A;
+    color: white;
+    border: #D6A800 solid 1px;
+    padding: 10px;
+}
+
+#payroll-header{
+    text-align: center;
+}
+
+ul{
+    border: red dotted 1px;
+}
