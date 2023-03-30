@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--CSS sheet link, title, metadata, and Google Fonts link-->
+    <link href="hochdoerfer-favorites.css" type="text/css"  rel="stylesheet">
+    <link href="../../global.css" type="text/css"  rel="stylesheet">
+    <title>WEB 231 – Enterprise JavaScript I: Exercise 3.2</title>
+    <meta name="description" 
+      content="Exercise 3.2">
+    <meta name="keywords" 
+      content="learning, HTML, CSS, JavaScript">
+    <meta name="author" 
+      content="Kyle Hochdoerfer">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">      
+  </head>
+  <body>
+    <div class="main" id="container">
+      <!--Display main header-->
+      <h1 class="app-header">Welcome to the Favorites App!</h1>
+
+      <!--Display a card with a title-->
+      <div class="card">
+        <p class="card-title">My Favorites</p>
+
+        <!--In the card content, display four buttons that create alerts when clicked-->
+        <div class="card-content">
+          <button class="btn btn-primary" onclick="favoriteTeam()">Favorite Sports Team</button>
+          <button class="btn btn-primary" onclick="favoriteBook()">Favorite Book</button>
+          <button class="btn btn-primary" onclick="favoriteAuthor()">Favorite Author</button>
+          <button class="btn btn-primary" onclick="favoriteLanguage()">Favorite Programming Language</button>
+        </div>
+      </div>
+
+      <!--Display link to return to index.html-->
+      <a class="return-home" href="../index.html">Return</a>
+
+      <!--Link to js file-->
+      <script src="hochdoerfer-favorites.js"></script>
+    </div>
+  </body>
+</html>

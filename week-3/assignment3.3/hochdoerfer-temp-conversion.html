@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--CSS sheet links, title, metadata, and Google Fonts link-->
+    <link href="hochdoerfer-temp-conversion.css" type="text/css"  rel="stylesheet">
+    <link href="/global.css" type="text/css"  rel="stylesheet">
+    <title>WEB 231 – Enterprise JavaScript I: Exercise 3</title>
+    <meta name="description" 
+      content="Exercise 3.2">
+    <meta name="keywords" 
+      content="learning, HTML, CSS, JavaScript">
+    <meta name="author" 
+      content="Kyle Hochdoerfer">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">      
+  </head>
+  <body>
+    <div class="main" id="container">
+      <!--Display main header-->
+      <h1 class="app-header">Welcome to the Temperature Conversion App!</h1>
+
+      <!--Display a card with a title for the temperature conversion feature-->
+      <div class="card">
+        <p class="card-title">Fahrenheit to Celsius Conversion</p>
+
+        <!--Display a text input field and label within the card content-->
+        <div class="card-content">
+            <p>Fahrenheit value:<input type="text" id="temperature"></p>
+
+            <!--Display a button to convert the temperature-->
+            <button class="btn btn-primary" onclick="calcCelsius()">Convert Temperature</button>
+        </div>
+      </div>
+
+      <!--Display a card with a title and the conversion results-->
+      <div class="card">
+        <h1 class="card-title">Conversion Results</h1>
+
+        <!--Display the results once calculated by JavaScript-->
+        <p id="calc-results"></p>
+      </div>
+
+      <!--Display link to return to index.html-->
+      <a class="return-home" href="../index.html">Return</a>
+
+      <!--Link to js file-->
+      <script src="hochdoerfer-temp-conversion.js"></script>
+    </div>
+  </body>
+</html>

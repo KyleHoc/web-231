@@ -1,0 +1,10 @@
+/*Center a card and its content*/
+.card{
+    margin:auto;
+    text-align: center;
+}
+
+/*Set the calculation results to 24px*/
+#calc-results{
+    font-size:24px;
+}

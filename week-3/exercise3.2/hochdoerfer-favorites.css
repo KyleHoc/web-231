@@ -1,0 +1,12 @@
+/*Center the card and add padding to the bottom*/
+.card{
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+/*Display the buttons in a column with a 30px gap between them*/
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
