@@ -1,3 +1,8 @@
+//Title: hochdoerfer-favorites.js
+//Author: Kyle Hochdoerfer
+//Date: 3/27/23
+//Description: JavaScript for hochdoerfer-favorites.html
+
 function favoriteTeam(){
     //Display an alert of a favorite sports team
     alert("Alabama Crimson Tide")

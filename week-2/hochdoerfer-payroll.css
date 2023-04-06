@@ -1,7 +1,15 @@
+/*Title: hochdoerfer-payroll.css
+//Author: Kyle Hochdoerfer
+//Date: 3/20/23
+//Description: Styling for hochdoerfer-payroll.html
+*/
+
+/*Set styling for body font*/
 body{
     font-family: "Roboto", "Helvetica Neue", sans-serif;
 }
 
+/*Set Styling for return link*/
 .return-home{
     color: #4F3674;
 }
@@ -15,6 +23,7 @@ body{
     color: #3C275A
 }
 
+/*Set styling for headers*/
 h1, h3{
     background-color: #3C275A;
     color: white;
@@ -26,6 +35,8 @@ h1, h3{
     text-align: center;
 }
 
+
+/*Set styling for the unordered list border*/
 ul{
     border: red dotted 1px;
 }

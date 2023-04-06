@@ -1,3 +1,8 @@
+//Title: hochdoerfer-temp-conversion.js
+//Author: Kyle Hochdoerfer
+//Date: 3/20/23
+//Description: JavaScript for hochdoerfer-payroll.html
+
 //Declare variables for Beethoven's payment information
 const beethovenFirstName = "Ludwig"
 const beethovenLastName = "Beethoven"
