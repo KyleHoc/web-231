@@ -1,0 +1,16 @@
+/*Title: hochdoerfer-sequence-game.css
+Author: Kyle Hochdoerfer
+Date: 4/10/23
+Description: Styling for hochdoerfer-sequence-game.html
+*/
+
+/*Center a card and its content*/
+.card{
+    margin:auto;
+    text-align: center;
+}
+
+/*Set the font size of results to 24px*/
+#results{
+    font-size: 24px;
+}
