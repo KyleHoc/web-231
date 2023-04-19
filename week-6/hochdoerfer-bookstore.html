@@ -1,0 +1,64 @@
+<!--Title: hochdoerfer-bookstore.html
+Author: Kyle Hochdoerfer
+Date: 4/17/23
+Description: App for displaying book information
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--CSS sheet links, title, metadata, and Google Fonts link-->
+    <link href="hochdoerfer-bookstore.css" type="text/css"  rel="stylesheet">
+    <link href="../global.css" type="text/css"  rel="stylesheet">
+    <title>WEB 231 – Enterprise JavaScript I: Assignment 6.2</title>
+    <meta name="description" 
+      content="Assignment 6.2">
+    <meta name="keywords" 
+      content="learning, HTML, CSS, JavaScript">
+    <meta name="author" 
+      content="Kyle Hochdoerfer">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">      
+  </head>
+  <body>
+    <div class="main" id="container">
+      <!--Display main header-->
+      <h1 class="app-header">Welcome to the Bookstore App!</h1>
+
+      <!--Display a card with its title-->
+      <div class="card">
+        <p class="card-title">My Favorites:</p>
+
+        <!--Display a drop-down input with a label so the user can select a table-->
+        <div class="card-content">
+            <p><label>Choose a listing:&nbsp;</label>
+              <select id="choice">
+                <option value="none">--Select--</option>
+                <option value="books">Top 3 Favorite Books</option>
+                <option value="authors">Top 3 Favorite Authors</option>
+                <option value="publishers">Top 3 Favorite Publishers</option>
+              </select>
+            </p>
+
+            <!--Display a button to show the chosen table-->
+            <button class="btn btn-primary" onclick="display()">Display Listing</button>
+        </div>
+      </div>
+
+      <!--Display a card showing the results-->
+      <div class="card">
+        <h1 class="card-title">Results</h1>
+
+        <!--Display the chosen table-->
+        <p id="results"></p>
+      </div>
+
+      <!--Display a link to return to index.html-->
+      <a class="return-home" href="../index.html">Return</a>
+
+      <!--Link to js file-->
+      <script src="hochdoerfer-bookstore.js"></script>
+    </div>
+  </body>
+</html>

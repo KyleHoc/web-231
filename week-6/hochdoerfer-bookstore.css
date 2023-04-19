@@ -1,0 +1,18 @@
+/*Title: hochdoerfer-bookstore.css
+Author: Kyle Hochdoerfer
+Date: 4/17/23
+Description: Styling for hochdoerfer-bookstore.html
+*/
+
+/*Center a card and its content*/
+.card{
+    margin:auto;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Set h3 font weight to lighter and text align to left*/
+h3{
+    font-weight: lighter;
+    text-align: left;
+}

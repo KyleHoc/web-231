@@ -4,11 +4,12 @@
 //Description: Global styling for WEB-231
 */
 
-/*Provide font styling to the body and for setting the width to 100%*/
+/*Provide font styling to the body*/
 body{
     font-family: "Roboto", "Helvetica Neue", sans-serif;
 }
 
+/*Set the full width to 100%*/
 .full-width{
     width: 100%;
 }
@@ -20,6 +21,7 @@ body{
     width: 50%;
 }
 
+/*Styling for card titles*/
 .card-title{
     text-align: center;
     font-size: 2em;
@@ -28,20 +30,23 @@ body{
     padding: 5px;
 }
 
+/*Set the padding for card content*/
 .card-content{
     padding: 2px 16px;
 }
 
+/*Set the box shadow of card content on hover*/
 .card-content:hover{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/*Provide styling for a form and form field*/
+/*Provide styling for a form*/
 .form{
     display: inline-grid;
     grid-template-columns: auto;
 }
 
+/*Set the padding for a form field*/
 .form-field{
     padding: 20px;
 }
@@ -59,11 +64,13 @@ body{
     color: black;
 }
 
+/*Provide primary button styling*/
 .btn-primary{
     background-color: #4F3674;
     color: white;
 }
 
+/*Provide primary button styling on hover*/
 .btn-primary:hover{
     background-color: #D6A800;
     color:#4F3674;
@@ -84,21 +91,25 @@ body{
     color: #4F3674;
 }
 
+/*Color styling for return link on hover*/
 .return-home:hover{
     background-color: #D6A800;
     color: #4F3674;
 }
 
+/*Color styling for visited return link*/
 .return-home:visited{
     color: #3C275A
 }
 
-/*Styling for headers and drop-down menus*/
+/*Styling for headers*/
 .app-header{
     font-weight: 400;
     text-align: center;
 }
 
+
+/*Styling for drop down menu*/
 .drop-down-menu{
     padding: 12px 20px;
     margin: 8px 0;
@@ -106,4 +117,33 @@ body{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+/*Styling for tables*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*Styling for table headers*/
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4F3674;
+    color: white;
+}
+
+/*Styling for table headers and data*/
+table td, table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/*Styling for table on hover*/
+table tr:hover{
+    background-color: #D6A800;
+    color: #4f3674;
+    cursor: pointer;
 }
