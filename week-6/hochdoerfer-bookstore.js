@@ -5,8 +5,8 @@
 
 //Declare three array containing data to display
 let books = ["The Fellowship of the Ring", "The Two Towers", "The Return of the King"];
-let authors = ["Clive Staples Lewis", "Franklin Patrick Herbert Jr.", "John Ronald Reuel Tolkien"];
-let publishers = ["Packt Publishing", "O'Reilly Media", "Manning Publications"];
+let authors = ["Franklin Patrick Herbert Jr.", "Clive Staples Lewis", "John Ronald Reuel Tolkien"];
+let publishers = ["Manning Publications", "O'Reilly Media", "Packt Publishing"];
 
 //Sort the authors array in ascending order
 authors.sort();
