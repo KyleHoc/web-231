@@ -1,0 +1,50 @@
+/*Title: hochdoerfer-calculator.css
+Author: Kyle Hochdoerfer
+Date: 4/24/23
+Description: Styling for hochdoerfer-calculator.html
+*/
+
+/*Center a card and its content*/
+.card{
+    margin:auto;
+    text-align: center;
+}
+
+/*Set the card width to 100%*/
+#card{
+    width: 100%;
+}
+
+/*Styling for a reusable calculator container*/
+.calc-container{
+    display: grid;
+    width: 800px;
+    margin: 3% auto 0;
+    column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*Set results container to 100% width, margin-top of 0*/
+#results{
+    width: 100%;
+    margin-top: 0;
+}
+
+/*Center multiplication results with a font size of 28px*/
+#mul-results{
+    font-size: 28px;
+    text-align: center;
+}
+
+/*Center division results with a font size of 28px*/
+#div-results{
+    font-size: 28px;
+    text-align: center;
+}
+
+/*Styling for text inputs*/
+input{
+    height: 24px;
+    width: 45%;
+    margin-bottom: 15px;
+}

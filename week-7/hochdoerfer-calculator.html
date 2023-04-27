@@ -1,0 +1,84 @@
+<!--Title: hochdoerfer-calculator.html
+Author: Kyle Hochdoerfer
+Date: 4/24/23
+Description: App for dividing and multiplying numbers
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--CSS sheet links, title, metadata, and Google Fonts link-->
+    <link href="hochdoerfer-calculator.css" type="text/css"  rel="stylesheet">
+    <link href="../global.css" type="text/css"  rel="stylesheet">
+    <title>WEB 231 – Enterprise JavaScript I: Assignment 7.2</title>
+    <meta name="description" 
+      content="Assignment 7.2">
+    <meta name="keywords" 
+      content="learning, HTML, CSS, JavaScript">
+    <meta name="author" 
+      content="Kyle Hochdoerfer">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">      
+  </head>
+  <body>
+    <div class="main" id="container">
+      <!--Display main header-->
+      <h1 class="app-header">Welcome to the Calculator App!</h1>
+
+      <!--Create a container for the multiplication function-->
+      <div class="calc-container">
+        <!--Display a card with its title-->
+        <div class="card" id="card">
+          <p class="card-title">Multiply Form:</p>
+
+          <!--Display an input for each number to multiply-->
+          <div class="card-content">
+            <input type="text" id="num1"><br>
+            <input type="text" id="num2"><br>
+            <!--Display a button to multiply the numbers-->
+            <button class="btn btn-primary" onclick="displayMultiplyResults()">Multiply</button>
+          </div>
+        </div>
+
+        <!--Display a card showing the results-->
+        <div class="card" id="results">
+          <h1 class="card-title">Results</h1>
+
+          <!--Display the results-->
+          <p id="mul-results"></p>
+        </div>
+      </div>
+
+      <!--Create a container for the division function-->
+      <div class="calc-container">
+        <!--Display a card with its title-->
+        <div class="card" id="card">
+          <p class="card-title">Divide Form:</p>
+
+          <!--Display an input for each number to divide-->
+          <div class="card-content">
+            <input type="text" id="num3"><br>
+            <input type="text" id="num4"><br>
+            <!--Display a button that will divide the numbers-->
+            <button class="btn btn-primary" onclick="displayDivideResults()">Divide</button>
+          </div>
+        </div>
+
+        <!--Display a card showing the results-->
+        <div class="card" id="results">
+          <h1 class="card-title">Results</h1>
+
+          <!--Display the results-->
+          <p id="div-results"></p>
+        </div>
+      </div>
+
+      <!--Display a link to return to index.html-->
+      <a class="return-home" href="../index.html">Return</a>
+
+      <!--Link to js file-->
+      <script src="hochdoerfer-calculator.js"></script>
+    </div>
+  </body>
+</html>
