@@ -30,14 +30,8 @@ Description: Styling for hochdoerfer-calculator.html
     margin-top: 0;
 }
 
-/*Center multiplication results with a font size of 28px*/
-#mul-results{
-    font-size: 28px;
-    text-align: center;
-}
-
-/*Center division results with a font size of 28px*/
-#div-results{
+/*Center results results with a font size of 28px*/
+#mul-results, #div-results{
     font-size: 28px;
     text-align: center;
 }
