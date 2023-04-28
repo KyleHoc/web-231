@@ -30,7 +30,7 @@ Description: Styling for hochdoerfer-calculator.html
     margin-top: 0;
 }
 
-/*Center results results with a font size of 28px*/
+/*Center results with a font size of 28px*/
 #mul-results, #div-results{
     font-size: 28px;
     text-align: center;
