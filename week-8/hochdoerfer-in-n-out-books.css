@@ -1,0 +1,18 @@
+/*Title: hochdoerfer-in-and-out-books.css
+Author: Kyle Hochdoerfer
+Date: 5/1/23
+Description: Styling for hochdoerfer-in-and-out-books.html
+*/
+
+/*Center a card and its content*/
+.card{
+    margin:auto;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Set h3 font weight to lighter and text align to left*/
+h3{
+    font-weight: lighter;
+    text-align: left;
+}
