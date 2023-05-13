@@ -1,0 +1,33 @@
+/*Title: hochdoerfer-dino-app.css
+Author: Kyle Hochdoerfer
+Date: 5/8/23
+Description: Styling for hochdoerfer-dino-app.html
+*/
+
+/*Center a card and its content*/
+.card{
+    margin:auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*Set the font size of results to 24px*/
+#results{
+    font-size: 24px;
+}
+
+/*Styling for the input margins*/
+input{
+    margin: 20px 5px 20px 20px;
+}
+
+/*Set text-align to left and margin-bottom to 10px for fieldset*/
+fieldset{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/*Set button width to 90%*/
+button{
+    width: 90%;
+}
